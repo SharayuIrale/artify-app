@@ -1,64 +1,32 @@
-Artify: Unleashing Styling Through Image Transformation 🎨
+# Artify: Unleashing Styling Through Image Transformation 🎨
+
 Artify is a Streamlit-based web application that enables users to apply various image transformation effects to their images. This tool offers several unique effects, including a Neon Filter Effect, a Sketch Effect, and a Neural Transform. Users can upload images and select from these transformations to enhance or stylize their images creatively.
 
-Features
-Neon Filter Effect: Apply a vivid, glowing neon effect to images.
-Sketch Effect: Convert images into a pencil sketch style.
-Neural Transform: Transfer complex artistic styles to images using neural networks.
-Image Display: Showcase images from the local directory with ease.
-Demo
-You can access the app online via Streamlit Community Cloud here (add link once deployed).
+## Features
 
-Installation
+- **Neon Filter Effect**: Apply a vivid, glowing neon effect to images.
+- **Sketch Effect**: Convert images into a pencil sketch style.
+- **Neural Transform**: Transfer complex artistic styles to images using neural networks.
+- **Image Display**: Showcase images from the local directory with ease.
+
+## Demo
+
+You can access the app online via Streamlit Community Cloud [here](add link once deployed).
+
+## Installation
+
 To set up this project locally, follow these steps:
 
-Prerequisites
-Python (>= 3.7)
-Git for version control
-Streamlit (required to run the app)
-Steps
-Clone the Repository
+### Prerequisites
 
-bash
-Copy code
-git clone https://github.com/yourusername/artify-app.git
+- Python (>= 3.7)
+- Git for version control
+- Streamlit (required to run the app)
+
+### Steps
+
+#### Clone the Repository
+
+```bash
+git clone https://github.com/SharayuIrale/artify-app
 cd artify-app
-Install Required Packages
-
-Install all dependencies using the following command:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the Application
-
-Start the app using Streamlit:
-
-bash
-Copy code
-streamlit run app.py
-Access the Application
-
-Open your web browser and go to http://localhost:8501.
-
-Usage
-Upload an Image: Start by uploading an image you want to transform.
-Choose a Transformation:
-Neural Transform: Applies neural style transfer to the uploaded image.
-Sketch: Converts the uploaded image to a pencil sketch.
-Neon Filter Effect: Adds a glowing neon effect to the image.
-View and Save the Results: After transformation, view and download the stylized image.
-
-Technologies Used
-Python: Core programming language.
-Streamlit: For building and deploying the interactive web app.
-OpenCV: For image processing and transformations.
-Pillow (PIL): To handle image operations.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Feel free to modify or extend the project as needed! Let us know if you encounter any issues or have suggestions for improvement.
-
-Contact
-For any questions or feedback, please reach out at [iralesharayu10@gmail.com].
-
